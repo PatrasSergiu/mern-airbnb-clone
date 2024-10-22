@@ -26,6 +26,6 @@ I started this project following a tutorial from "Coding with Dawid" youtube cha
 
 1. Clone the repo.
 2. Open a terminal for the back-end and front-end, navigating to api and client respectively.
-3. Run `npm install` to grab all dependencies.
+3. Run `yarn install` to grab all dependencies.
 4. Configure your `.env` file with your **JWT secret**, **MongoDB connection string**, and **AWS S3 credentials**.
 5. Run the backend and front-end with `yarn dev`
