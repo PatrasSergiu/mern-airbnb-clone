@@ -30,7 +30,7 @@ const deleteBooking = async (req, res) => {
         }
         const currentTime = new Date();
         const checkInTime = new Date(booking.checkIn);
-        // Check if the current time is more than 24 hours before the check-in time
+        // check if less than 24 hours before check-in time
         const hoursBeforeCheckIn = (checkInTime - currentTime) / (1000 * 60 * 60);
 
         if (hoursBeforeCheckIn < 24) {
@@ -42,7 +42,6 @@ const deleteBooking = async (req, res) => {
         res.status(500).json({ error: "Server error" });
     }
 };
-
 
 module.exports = {
     saveBooking,
