@@ -2,6 +2,7 @@
 
 This project is part of my attempts at learning/getting better at **TailwindCSS**, **authentication using JWT tokens**, and trying out **Amazon S3 buckets**. I’m building this while trying to avoid relying too much on external libraries, 
 trying to achieve as much as I can with just CSS and focus on making components reusable. 
+I started this project following a tutorial from "Coding with Dawid" youtube channel, and then kept adding features, validations and user feedback.
 
 
 ## Features
