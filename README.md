@@ -18,6 +18,7 @@ trying to achieve as much as I can with just CSS and focus on making components 
 - [ ] Fix the issue where the **page sometimes goes blank** when navigating using the browser back button.
 - [ ] Optimize the **form validation** and add more validations in the back-end.
 - [ ] Implement **search functionality** so users can easily find accommodations.
+- [ ] Add ripple efects to button presses for more visual feedback. (Attempt to copy the way MUI buttons work)
 - [ ] Create a **settings panel** with features like **dark mode**.
 
 ## How to Run the App
